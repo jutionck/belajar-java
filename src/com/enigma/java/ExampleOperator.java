@@ -50,14 +50,14 @@ public class ExampleOperator {
         System.out.println();
         System.out.println("Conditional OR");
         result = value == 3 || anotherValue == 5;
-        anotherResult = value != 3 || anotherValue == 5;
+        anotherResult = value != 3 || anotherValue != 5;
         System.out.println("Hasil Operator OR pada syarat value == 3 dan anotherValue == 5 adalah " + result);
         System.out.println("Hasil Operator OR pada syarat value != 3 dan anotherValue == 5 adalah " + anotherResult);
         System.out.println();
 
         System.out.println("Assigment Operator");
         int x = 100;
-        x += 100;
-        System.out.println("Hasil dari x = 100 + 100 adalah " + x);
+        x /= 5; // 100 / 5 = 100
+        System.out.println("Hasil dari x = 100 - 100 adalah " + x);
     }
 }
