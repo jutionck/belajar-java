@@ -4,10 +4,10 @@ public class PrimitiveDataType {
 
     public static void main(String[] args) {
 
-        // not primitive
+        // primitive
         int age = 10;
 
-        // primitive
+        // non primitive
         Integer age2 = 100;
 
         Integer age3 = null; // default value primitive
