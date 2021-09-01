@@ -4,14 +4,14 @@ public class ExampleOperator {
 
     public static void main(String[] args) {
         // arithmetic operator
-        int number1 = 15;
-        int number2 = 20;
-        int add = number1 + number2; // 35
-        int minus = number2 - number1; // 5
-        int multiply = number1 * number2;
-        int divide = number2 / number1;
-        int mod = number2 % number1;
-
+//        int number1 = 15;
+//        int number2 = 20;
+//        int add = number1 + number2; // 35
+//        int minus = number2 - number1; // 5
+//        int multiply = number1 * number2;
+//        int divide = number2 / number1;
+//        int mod = number2 % number1;
+//
 //        System.out.println("Hasil penjumlahan = " + add);
 //        System.out.println("Hasil pengurangan = " + minus);
 //        System.out.println("Hasil perkalian = " + multiply);
@@ -20,18 +20,18 @@ public class ExampleOperator {
 
         // unary operator == operator aritmatik [1 operand] => [+, -, ++, --]
 //        System.out.println("Operator Unary");
-        int number = 5;
-        //int result = +number; // nilai positif
-
+//        int number = 5;
+//        int result = +number; // nilai positif
+//
 //        int anotherNumber = 10;
 //        int anotherResult = -anotherNumber; // nilai negatif
 //        System.out.println(anotherResult);
 //        System.out.println(++number);
 //        System.out.println(--anotherNumber);
-
-        // relational operator
-        int a = 10;
-        int b = 5;
+//
+//        // relational operator
+//        int a = 10;
+//        int b = 5;
 //        System.out.println(a == b);
 //        System.out.println(a < b);
 //        System.out.println(a > b);
