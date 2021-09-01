@@ -1,0 +1,2 @@
+Nama = Jution Candra Kirana
+Umur = 26
