@@ -7,12 +7,12 @@ public class ExampleLoop {
     public static void main(String[] args) {
 
         // for loop
-//        for (int i = 0; i < 5; i++) {
-//            for (int j = 0; j < i; j++) {
-//                System.out.print("*");
-//            }
-//            System.out.println("");
-//        }
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
 
         // while
 //        Scanner scanner = new Scanner(System.in);
@@ -54,14 +54,14 @@ public class ExampleLoop {
 
         //nested for
         // membuat variabel
-        int x, y;
-
-        // melakukan parulang sebnayan x dan y kali
-        for (x = 0; x <= 5; x++){
-            for( y = 0; y <= 3; y++){
-                System.out.format("Perulangan [x=%d, y=%d] %n", x, y);
-            }
-        }
+//        int x, y;
+//
+//        // melakukan parulang sebnayan x dan y kali
+//        for (x = 0; x <= 5; x++){
+//            for( y = 0; y <= 3; y++){
+//                System.out.format("Perulangan [x=%d, y=%d] %n", x, y);
+//            }
+//        }
 
 
     }
