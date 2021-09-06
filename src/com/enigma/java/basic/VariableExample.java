@@ -1,4 +1,4 @@
-package com.enigma.java;
+package com.enigma.java.basic;
 
 public class VariableExample {
 
