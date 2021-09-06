@@ -6,20 +6,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car avanza = new Car();
-        Car jazz = new Car();
+        // create Car object and fill car constructor
+        Car avanza = new Car("Black", 0, 2021);
 
-        avanza.color = "Red";
-        avanza.fuel = 10;
-        avanza.year = 2021;
+        // call car method
+        avanza.fillFuel(10);
+        avanza.fillFuel(5);
+        avanza.engineStart();
 
-
-        jazz.color = "Black";
-        jazz.fuel = 20;
-        jazz.year = 2019;
-
+        // print result
         System.out.println(avanza);
-        System.out.println(jazz);
 
     }
 }
