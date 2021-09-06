@@ -46,15 +46,17 @@ public class Main {
         Hero luna = new Hero("Luna", 100, 10);
         System.out.println(luna);
 
-        Hero abandon = new Hero("Abandon", 150, 20);
+        Hero abandon = new Hero("Abandon", 150, 100);
         System.out.println(abandon);
 
-        Hero medusa = new Hero("Medusa", 200, 30);
+        Hero medusa = new Hero("Medusa", 200, 20);
         System.out.println(medusa);
 
         Hero razor = new Hero("Razor", 300, 20);
 
         // explain: abandon attack with baseDamage(20) and medusa's hp reduce as much as the opponent's damage
+        abandon.attack(medusa);
+        abandon.attack(medusa);
         abandon.attack(medusa);
         System.out.println(medusa);
 
@@ -62,9 +64,9 @@ public class Main {
         // System.out.println(medusa);
 
         // explain: medusa adding luna's hp as much as medusa have
-        medusa.cure(luna);
-        System.out.println(medusa);
-        System.out.println(luna);
+        // medusa.cure(luna);
+        // System.out.println(medusa);
+        // System.out.println(luna);
 
 
 

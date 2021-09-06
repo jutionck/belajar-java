@@ -16,7 +16,12 @@ public class Hero {
 
     // this method can be attack other hero
     public void attack(Hero hero) {
-        hero.getHilt(this.baseDamage);
+        if(hero.hp > 0) {
+            hero.getHilt(this.baseDamage);
+        } else {
+            System.out.println(hero.name + " dead");
+        }
+
     }
 
     // this method can be minus hp other hero
