@@ -2,6 +2,7 @@ package com.enigma.java;
 
 import com.enigma.java.oop.Block;
 import com.enigma.java.oop.Car;
+import com.enigma.java.oop.Hero;
 import com.enigma.java.oop.Rectangle;
 
 public class Main {
@@ -18,7 +19,7 @@ public class Main {
 
         // print result
         //System.out.println(avanza);
-
+        /*
         Rectangle rectangle = new Rectangle(6.0, 2.0);
         System.out.println(rectangle.print());
         System.out.println("Luas = " + rectangle.getSurface());
@@ -38,6 +39,34 @@ public class Main {
         // other casting from String to Integer (Non Primitive)
         String number  = "5";
         System.out.println(Integer.parseInt(number));
+
+        */
+
+        // Object Interaction
+        Hero luna = new Hero("Luna", 100, 10);
+        System.out.println(luna);
+
+        Hero abandon = new Hero("Abandon", 150, 20);
+        System.out.println(abandon);
+
+        Hero medusa = new Hero("Medusa", 200, 30);
+        System.out.println(medusa);
+
+        Hero razor = new Hero("Razor", 300, 20);
+
+        // explain: abandon attack with baseDamage(20) and medusa's hp reduce as much as the opponent's damage
+        abandon.attack(medusa);
+        System.out.println(medusa);
+
+        // medusa.getHeal(luna);
+        // System.out.println(medusa);
+
+        // explain: medusa adding luna's hp as much as medusa have
+        medusa.cure(luna);
+        System.out.println(medusa);
+        System.out.println(luna);
+
+
 
     }
 }
