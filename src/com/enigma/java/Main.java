@@ -1,9 +1,6 @@
 package com.enigma.java;
 
-import com.enigma.java.oop.Block;
-import com.enigma.java.oop.Car;
-import com.enigma.java.oop.Hero;
-import com.enigma.java.oop.Rectangle;
+import com.enigma.java.oop.*;
 
 public class Main {
 
@@ -43,6 +40,7 @@ public class Main {
         */
 
         // Object Interaction
+        /*
         Hero luna = new Hero("Luna", 100, 10);
         System.out.println(luna);
 
@@ -68,7 +66,17 @@ public class Main {
         // System.out.println(medusa);
         // System.out.println(luna);
 
+        */
 
+        // Hands On -> Create class Monster and Make Hero attack Monster
+        Hero abandon = new Hero("Abandon", 150, 20);
+
+        Monster godzilla = new Monster("Godzilla", 100, 35);
+        System.out.println(godzilla);
+
+        // hero attack monster
+        abandon.attack(godzilla);
+        System.out.println(godzilla);
 
     }
 }
