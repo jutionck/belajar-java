@@ -69,6 +69,7 @@ public class Main {
         */
 
         // Hands On -> Create class Monster and Make Hero attack Monster
+        /*
         Hero abandon = new Hero("Abandon", 150, 20);
 
         Monster godzilla = new Monster("Godzilla", 100, 35);
@@ -77,6 +78,19 @@ public class Main {
         // hero attack monster
         abandon.attack(godzilla);
         System.out.println(godzilla);
+        */
 
+        // Hands On -> Interface
+        HeroWithInterface luna = new HeroWithInterface("Luna", 100, 10);
+        System.out.println("Nyawa awal");
+        System.out.println(luna);
+
+        HeroWithInterface abandon = new HeroWithInterface("Abandon", 150, 100);
+        System.out.println("Nyawa awal");
+        System.out.println(abandon);
+
+        luna.attack(abandon);
+        System.out.println("Nyawa setelah diserang");
+        System.out.println(abandon);
     }
 }
