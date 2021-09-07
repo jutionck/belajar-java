@@ -81,6 +81,7 @@ public class Main {
         */
 
         // Hands On -> Interface
+        /*
         HeroWithInterface luna = new HeroWithInterface("Luna", 100, 10);
         System.out.println("Nyawa awal");
         System.out.println(luna);
@@ -92,5 +93,20 @@ public class Main {
         luna.attack(abandon);
         System.out.println("Nyawa setelah diserang");
         System.out.println(abandon);
+         */
+
+        // Hands On -> Abstraction
+        // Get SumArea
+        RectangleWithAbstract rectangle = new RectangleWithAbstract(7.0, 8.0);
+        SquareWithAbstract square = new SquareWithAbstract(7.0);
+        Circle circle = new Circle(7.0);
+
+        Shape[] shapes = {rectangle, square, circle};
+
+        // call sumArea
+        ShapeCalculate shapeCalculate = new ShapeCalculate();
+        Double totalArea = shapeCalculate.sumArea(shapes);
+        System.out.println("Total Luas Area = " + totalArea);
+
     }
 }
